@@ -17,6 +17,16 @@ Try to reach the cylinder at the end of each level and collect all the coins you
 ### Expérience attendue
 Le jeu présente plusieurs petites mécaniques de platforming telles que le saut, le dash et les pièges. Des checkpoints sont placés fréquemment pour donner un côté die and retry ainsi que pour pouvoir placer des situations assez difficiles qui nécessitent plusieurs essais.
 
+### Mécanique de character
+Triple dash : quand on appuie sur E en étatn au sol, le joueur dash en avant. S'il dash plusieurs fois d'affilé, les dashs sont plus longs (jusqu'à 3). Si le joueur dash sur un mur fragile de sa taille, il le détruit.
+
+### Mécaniques d'environnement
+Plateformes pouvant avoir plusieurs comportements : endommager ou soigner le joueur, faire sauter le joueur, agrandir ou rétrécir le joueur, empêcher le joueur de dash.
+
+Plateforme mouvante pouvant suivre un parcours, déclenchable automatiquement ou bien au contact du joueur.
+
+Piège tuant le joueur au contact.
+
 ### Difficultés rencontrés
 J'ai eu du mal au début du projet à m'approprier la structure Unreal : comment bien séparer le controller du character, qu'est-ce qui mérite d'être un blueprint, comment orchestrer les interactions etc. Maintenant j'ai mieux compris et j'ai été capable de rajouter les dernières mécaniques très rapidement sans problème.
 
